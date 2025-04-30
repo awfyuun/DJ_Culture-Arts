@@ -488,6 +488,7 @@ html.Popup-active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .Notice .Noti-Process > .content .li span {
@@ -542,6 +543,7 @@ html.Popup-active {
   height: 160px;
   border-radius: 20px;
   margin: 10px auto;
+  cursor: pointer;
 }
 
 .Notice .Noti-Process > .content .li-n span:nth-child(1) {
