@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <header class="TopBar con-min-width">
+      <div class="con">
+        <img src="./Images/logo.png" alt="" />
+        <ul>
+          <li class="menu-item"><a href="#">사업 안내</a></li>
+          <li class="menu-item"><a href="#">공간 안내</a></li>
+          <li class="menu-item"><a href="#">열린광장</a></li>
+          <li class="menu-item"><a href="#">알림광장</a></li>
+          <li class="menu-item"><a href="#">투명경영</a></li>
+          <li class="menu-item"><a href="#">대전문화재단</a></li>
+          <li>채용중</li>
+        </ul>
+        <div>
+          <img src="./Images/ico_search.png" alt="" />
+          <div class="search-active">
+            <div></div>
+            <img src="./Images/ico_search.png" alt="" />
+          </div>
+          <img class="menu-toggle" src="./Images/ico_menu.png" alt="" />
+        </div>
+      </div>
+      <div class="TopBar_subMenu">
+        <div class="con">
+          <ul>
+            <li><a href="">대전무형유산전수교육관</a></li>
+            <li><a href="">대전웃다리농악전수교육관</a></li>
+            <li><a href="">대전전통나래관</a></li>
+            <li><a href="">대전문학관</a></li>
+            <li><a href="">대전테미예술창작센터</a></li>
+            <li><a href="">대전예술가의 집</a></li>
+            <li><a href="">유교전통의례관</a></li>
+            <li><a href="">문화예술활동공간</a></li>
+          </ul>
+          <ul>
+            <li><a href="">자료</a></li>
+            <li><a href="">갤러리</a></li>
+          </ul>
+          <ul>
+            <li><a href="">공지사항</a></li>
+            <li><a href="">언론보도</a></li>
+            <li><a href="">실시간SNS</a></li>
+            <li><a href="">타기관 소식</a></li>
+            <li><a href="">입찰공고 및 결과</a></li>
+          </ul>
+          <ul>
+            <li><a href="">정관·규정</a></li>
+            <li><a href="">문화기부</a></li>
+            <li><a href="">윤리경영</a></li>
+            <li><a href="">경영공시</a></li>
+          </ul>
+          <ul>
+            <li><a href="">대전문화재단 소개</a></li>
+            <li><a href="">인사말·연혁</a></li>
+            <li><a href="">조직·채용</a></li>
+            <li><a href="">오시는길</a></li>
+            <li><a href="">유관·협약기관 </a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="Popup">
+      <div class="Popup_subMenu">
+        <img src="./Images/ico_close_w.png" alt="" />
+        <div class="con">
+          <ul>
+            <li>
+              <h2>사업 안내</h2>
+            </li>
+          </ul>
+          <ul>
+            <li><h2>공간 안내</h2></li>
+            <li><a href="#">대전무형유산전수교육관</a></li>
+            <li><a href="#">대전웃다리농악전수교육관</a></li>
+            <li><a href="#">대전전통나래관</a></li>
+            <li><a href="#">대전문학관</a></li>
+            <li><a href="#">대전테미예술창작센터</a></li>
+            <li><a href="#">대전예술가의 집</a></li>
+            <li><a href="#">유교전통의례관</a></li>
+            <li><a href="#">문화예술활동공간</a></li>
+          </ul>
+          <ul>
+            <li><h2>열린광장</h2></li>
+            <li><a href="#">자료</a></li>
+            <li><a href="#">갤러리</a></li>
+          </ul>
+          <ul>
+            <li><h2>알림광장</h2></li>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">언론보도</a></li>
+            <li><a href="#">실시간SNS</a></li>
+            <li><a href="#">타기관 소식</a></li>
+            <li><a href="#">입찰공고 및 결과</a></li>
+          </ul>
+          <ul>
+            <li><h2>투명경영</h2></li>
+            <li><a href="#">정관·규정</a></li>
+            <li><a href="#">문화기부</a></li>
+            <li><a href="#">윤리경영</a></li>
+            <li><a href="#">경영공시</a></li>
+          </ul>
+          <ul>
+            <li><h2>대전문화재단</h2></li>
+            <li><a href="#">대전문화재단 소개</a></li>
+            <li><a href="#">인사말·연혁</a></li>
+            <li><a href="#">조직·채용</a></li>
+            <li><a href="#">오시는길</a></li>
+            <li><a href="#">유관·협약기관 </a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="Main con-min-width">
+      <div class="con">
+        <div class="BannerArea">
+          <div class="Area1">
+            <div class="Banner Banner1 BG-Main1">
+              <img src="./Images/img_1.png" alt="" />
+              <span>2025 생활문화 지원사업 공모</span>
+              <p>2025.02.07 ~ 2025.02.19</p>
+            </div>
+            <div class="Banner Banner2 BG-Main2">
+              <img src="./Images/img_2.png" alt="" />
+              <span>2025 마음대로 예술공간 모집</span>
+              <p>2025.02.07 ~ 2025.02.19</p>
+            </div>
+            <div class="Banner Banner3 BG-Main3">
+              <img src="./Images/img_3.png" alt="" />
+              <span>2025 대전 예술가의집 1차 수시대관 공모</span>
+              <p>2025.02.07 ~ 2025.02.19</p>
+            </div>
+            <div class="Banner Banner4 BG-Main4">
+              <img src="./Images/img_4.png" alt="" />
+              <span>정월대보름 달맞이</span>
+              <p>2025.02.07 ~ 2025.02.19</p>
+            </div>
+          </div>
+          <div class="Area2">
+            <div class="Banner Banner5 BG-Main3">
+              <img src="./Images/img_5.png" alt="" />
+              <span>대전전통나래관 2층 상설전시실 휴관 안내</span>
+              <p>2025.02.07 ~ 2025.02.19</p>
+            </div>
+            <div class="Banner Banner6 BG-Main4">
+              <img src="./Images/img_6.png" alt="" />
+              <span>2025 대전문학관 사업 대상 작가 후보자 추천 안내</span>
+              <p>2025.02.07 ~ 2025.02.19</p>
+            </div>
+            <div class="Banner Banner7 BG-Main1">
+              <img src="./Images/img_7.png" alt="" />
+              <span>김용재:영혼의 구원을 추구하는 청동빛 _시인</span>
+              <p>2025.02.07 ~ 2025.02.19</p>
+            </div>
+            <div class="Banner Banner8 BG-Main2">
+              <img src="./Images/img_8.png" alt="" />
+              <span>2025 대전 문화예술교육 지원사업 통합공모</span>
+              <p>2025.02.07 ~ 2025.02.19</p>
+            </div>
+          </div>
+        </div>
+        <div class="MainBG">
+          <img src="./Images/logo.png" alt="#" />
+          <img src="./Images/img_w.png" alt="#" />
+        </div>
+      </div>
+    </section>
+    <section class="Notice con-min-width">
+      <div class="Notice-con">
+        <div class="Title">
+          <span>예술로 가까이, 시민과 나란히</span>
+          <p>대전문화재단의 사업공모 및 결과를 확인하세요.</p>
+        </div>
+        <div class="con">
+          <div class="Noti-Process Noti-Process1">
+            <div><span>접수예정</span></div>
+            <div class="content">
+              <div class="li li-1">
+                <span
+                  >2025 문화예술교육지원사업 통합<br />공모 사업 시행 공고</span
+                >
+                <div>
+                  <p>2025.02.07 ~ 2025.02.19</p>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li li-2">
+                <span>2025 마음대로 예술공간 지원사업 모집 공고</span>
+                <div>
+                  <p>2025.02.07 ~ 2025.02.19</p>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li li-3">
+                <span
+                  >2025 생활문화 지원사업 공고<br />(생활문화 활성화 지원,
+                  대전마을합창단 지원)</span
+                >
+                <div>
+                  <p>2025.02.07 ~ 2025.02.19</p>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+            </div>
+            <button class="dropdown-toggle" data-target=".Noti-Process1">
+              <img src="./Images/img_arrow.png" alt="#" /><img
+                src="./Images/img_arrow_up.png"
+                alt="#"
+              />
+            </button>
+          </div>
+          <div class="Noti-Process Noti-Process2">
+            <div><span>접수중</span></div>
+            <div class="content">
+              <div class="li li-1">
+                <span>2025 대전 예술가의집 1차 수시대관 공모</span>
+                <div>
+                  <p>2025.02.07 ~ 2025.02.19</p>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li li-2">
+                <span
+                  >2025 대전문학관 사업 대상 작가 후보자<br />추천 안내</span
+                >
+                <div>
+                  <p>2025.02.07 ~ 2025.02.19</p>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+            </div>
+            <button class="dropdown-toggle" data-target=".Noti-Process2">
+              <img src="./Images/img_arrow.png" alt="#" /><img
+                src="./Images/img_arrow_up.png"
+                alt="#"
+              />
+            </button>
+          </div>
+          <div class="Noti-Process Noti-Process3">
+            <div><span>접수마감</span></div>
+            <div class="content">
+              <div class="li-n li-1">
+                <span>사업공모</span>
+                <span>2025 대전 예술가의집 정기대관 심의결과</span>
+                <div>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li-n li-2">
+                <span>공모결과</span>
+                <span
+                  >대전테미예술창작센터 12기 입추예술가 공모 최종 합격자
+                  발표</span
+                >
+                <div>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li-n li-3">
+                <span>공모결과</span>
+                <span
+                  >2024 대전 0시 축제 가족테마파크 조성 및 운영<br />용역 제안서
+                  평가(정성적평가) 결과 공고</span
+                >
+                <div>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li-n li-4">
+                <span>공모결과</span>
+                <span>2024 예술인 건강검진비 지원 2차 심의<br />결과 공고</span>
+                <div>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li-n li-5">
+                <span>공모결과</span>
+                <span
+                  >2024 대전 0시 축제 연계 옛충남도청 행사<br />운영 용역 제안서
+                  평가(정성적평가) 결과 공고</span
+                >
+                <div>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li-n li-6">
+                <span>공모결과</span>
+                <span
+                  >대전테미예술창작센터 12기 입추예술가 공모<br />서류심의
+                  합격자 발표</span
+                >
+                <div>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+              <div class="li-n li-7">
+                <span>공모결과</span>
+                <span
+                  >2024 거리공연 활성화사업 0(ZERO)플러그<br />거리예술가 공모
+                  선정 결과</span
+                >
+                <div>
+                  <p>공간운영팀</p>
+                </div>
+              </div>
+            </div>
+            <button class="dropdown-toggle" data-target=".Noti-Process3">
+              <img src="./Images/img_arrow_down_f.png" alt="#" /><img
+                src="./Images/img_arrow_up.png"
+                alt="#"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="BG">
+      <img class="BG1" src="./Images/img_line-1.png" alt="#" />
+      <img class="BG2" src="./Images/img_line-2.png" alt="#" />
+      <img class="BG3" src="./Images/img_line-3.png" alt="#" />
+      <img class="BG4" src="./Images/img_line-2.png" alt="#" />
+      <img class="BG5" src="./Images/img_line-3.png" alt="#" />
+    </section>
+    <section class="Slide con-min-width">
+      <h1>대전에서 진행되는 다양한 문화예술을 즐겨보세요.</h1>
+      <div class="con">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./Images/ico_w.png" alt="#" />
+              <span>극단 모락 제 1회 정기 공연</span>
+              <p>2025.03.23</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/ico_w.png" alt="#" />
+              <span>2025 제55회 공예품대전<br />제28회 관광기념품공모전</span>
+              <p>2025.06.26</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/ico_w.png" alt="#" />
+              <span
+                >제17회 향음필하모닉오케스트라<br />정기연주회 영화 속
+                클래식</span
+              >
+              <p>2025.06.28</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper mySwiper1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./Images/ico_w.png" alt="#" />
+              <span>2025 대전 미술제</span>
+              <div>
+                <p>1회차</p>
+                <p>2025.03.18 ~ 2025.03.23</p>
+              </div>
+              <div>
+                <p>2회차</p>
+                <p>2025.03.25 ~ 2025.03.30</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/ico_w.png" alt="#" />
+              <span>2025 신개념회 정기전</span>
+              <p>2025.06.17 ~ 2025.06.22</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/ico_w.png" alt="#" />
+              <span>2025 제55회 공예품대전<br />제28회 관광기념품 공모전</span>
+              <p>2025.06.17 ~ 2025.06.29</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="Space con-min-width">
+      <div class="section-top__wrap relative height-100p">
+        <ul class="section-top__content flex height-100p">
+          <li class="content-item">
+            <div class="Space-text">
+              <h2>대전웃다리농악전수교육관</h2>
+              <h3>
+                2009년 9월 2일에 개관한 대전웃다리농악전수교육관은 대전광역시
+                무형유산 웃다리농악의<br />보존과 계승을 위한 공간으로
+                전수교육관, 준비실, 휴게실 등 지상 1층으로 이루어져 있습니다.
+              </h3>
+            </div>
+            <img class="icon" src="./Images/ico_w.png" alt="#" />
+            <img class="bg-image" src="./Images/space-1.png" alt="#" />
+          </li>
+          <li class="content-item">
+            <div class="Space-text">
+              <h2>대전전통나래관</h2>
+              <h3>
+                오랜 역사와 전통문화를 간직한 유서 깊은 문화민족으로서 우리의
+                정신적 자양분이 되어<br />온 전통문화의 중요성을 잊어서는 안 될
+                것입니다. 특히 무형의 문화유산은 세대를 이어가며<br />그 시대에
+                맞게 변화하는 “살아있는 문화유산”입니다.
+              </h3>
+            </div>
+            <span class="text">문</span>
+            <img class="bg-image" src="./Images/space-2.png" alt="#" />
+          </li>
+          <li class="content-item">
+            <div class="Space-text">
+              <h2>대전테미예술창작센터</h2>
+              <h3>
+                대전테미예술창작센터는 대전광역시가 원도심을 문화와 예술을 통해
+                활성화 및 재생하기 위해<br />유휴공간이었던 (구)테미도서관을
+                활용하여 조성한 시각예술 레지던시입니다.
+              </h3>
+            </div>
+            <span class="text">화</span
+            ><img class="bg-image" src="./Images/space-3.png" alt="#" />
+          </li>
+          <li class="content-item">
+            <div class="Space-text">
+              <h2>대전전통나래관</h2>
+              <h3>
+                대전무형유산전수교육관은 대전광역시 무형유산 전승과 육성을 위해
+                2009년 4월 15일에<br />개관하였습니다. 대전무형유산전수교육관은
+                대전무형유산 예능 종목을 전수, 보존하며<br />교육, 공연, 행사 등
+                다양한 프로그램으로 시민 전통문화 향유기회를 확대해 나가고
+                있습니다.
+              </h3>
+            </div>
+            <span class="text">와</span
+            ><img class="bg-image" src="./Images/space-4.png" alt="#" />
+          </li>
+          <li class="content-item">
+            <div class="Space-text">
+              <h2>대전문학관</h2>
+              <h3>
+                대전문학관은 대전의 문학사를 정립하여 그 전통을 계승하며,
+                문인들의 작품과<br />문학 사료를 체계적으로 보존·관리하는
+                곳입니다.
+              </h3>
+            </div>
+            <span class="text">공</span
+            ><img class="bg-image" src="./Images/space-5.png" alt="#" />
+          </li>
+          <li class="content-item">
+            <div class="Space-text">
+              <h2>대전예술가의집</h2>
+              <h3>
+                대전예술가의집은 모든 시민들과 지역 예술인들이 창작물을 발표하고
+                전시하며,
+                <br />때로는 창작활동에 함께 동참함으로써 시민과 예술인들이
+                만나고 소통하는 문화의 공간입니다.
+              </h3>
+            </div>
+            <span class="text">간</span
+            ><img class="bg-image" src="./Images/space-6.png" alt="#" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="Info con-min-width">
+      <h1>공지사항</h1>
+      <div class="con">
+        <div class="li li-1">
+          <div>
+            <span>대전예술가의집</span>
+            <h2>2025년 설 연휴로 인한 휴관 공지 안내</h2>
+          </div>
+          <div><p>2025.02.07 ~ 2025.02.19</p></div>
+        </div>
+        <div class="li li-2">
+          <div>
+            <span>대전문화재단</span>
+            <h2>2025년 유교 전통의례관 대전별서 정월대보름 달맞이 개최</h2>
+          </div>
+          <div><p>2025.02.07 ~ 2025.02.19</p></div>
+        </div>
+        <div class="li li-3">
+          <div>
+            <span>대전문화재단</span>
+            <h2>무안공항 항공기 사고에 애도를 표합니다</h2>
+          </div>
+          <div><p>2025.02.07 ~ 2025.02.19</p></div>
+        </div>
+        <div class="li li-4">
+          <div>
+            <span>대전문화재단</span>
+            <h2>2024 유교전통의례관 대전별서 동지(冬至)축제 안내</h2>
+          </div>
+          <div><p>2025.02.07 ~ 2025.02.19</p></div>
+        </div>
+      </div>
+      <button>더 보기</button>
+    </section>
+    <section class="Video con-min-width">
+      <div class="youtube-bg">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/NWl0DMR-uro?autoplay=1&mute=1&loop=1&controls=0&playlist=NWl0DMR-uro&modestbranding=1"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <section class="SNS con-min-width">
+      <div>
+        <img src="./Images/ico_insta.png" alt="" />
+        <img src="./Images/ico_facebook.png" alt="" />
+        <img src="./Images/ico_youtube.png" alt="" />
+        <img src="./Images/ico_blog.png" alt="" />
+      </div>
+      <span>대전문화재단 SNS에서 더 많은 소식을 만나볼 수 있어요.</span>
+    </section>
+    <section class="Footer con-min-width">
+      <div>
+        <div>
+          <img class="logo" src="./Images/img_logo_w.png" alt="" />
+          <ul>
+            <li class="dropdown">
+              <a href="">패밀리 사이트</a
+              ><img
+                class="arrow down"
+                src="./Images/ico_arrow_down.png"
+                alt=""
+              />
+              <img
+                class="arrow up"
+                src="./Images/ico_arrow_up_w.png"
+                alt=""
+                style="display: none"
+              />
+              <ul class="submenu">
+                <li><a href="">문화예술공간</a></li>
+                <li><a href="">대전예술씨앗(후원)</a></li>
+                <li><a href="">생활문화포털</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="">대전 문화기관</a
+              ><img
+                class="arrow down"
+                src="./Images/ico_arrow_down.png"
+                alt=""
+              />
+              <img
+                class="arrow up"
+                src="./Images/ico_arrow_up_w.png"
+                alt=""
+                style="display: none"
+              />
+              <ul class="submenu">
+                <li><a href="">대전광역시청</a></li>
+                <li><a href="">대전시립교향악단</a></li>
+                <li><a href="">대전시립무용단</a></li>
+                <li><a href="">대전시립합창단</a></li>
+                <li><a href="">대전시립청소년합창단</a></li>
+                <li><a href="">대전예술의전당</a></li>
+                <li><a href="">대전시립박물관</a></li>
+                <li><a href="">이응노미술관</a></li>
+                <li><a href="">대전시립미술관</a></li>
+                <li><a href="">대전시립연정국악원</a></li>
+                <li><a href="">대전정보문화산업진흥원</a></li>
+                <li><a href="">대전관광</a></li>
+                <li><a href="">대전선사박물관</a></li>
+                <li><a href="">우송예술회관</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="">전국 문화기관</a
+              ><img
+                class="arrow down"
+                src="./Images/ico_arrow_down.png"
+                alt=""
+              />
+              <img
+                class="arrow up"
+                src="./Images/ico_arrow_up_w.png"
+                alt=""
+                style="display: none"
+              />
+              <ul class="submenu">
+                <li><a href="">문화체육관광부</a></li>
+                <li><a href="">한국문화예술교육진흥원</a></li>
+                <li><a href="">한국문화예술위원히</a></li>
+                <li><a href="">한국문화관광연구원</a></li>
+                <li><a href="">한국저작권위원회</a></li>
+                <li><a href="">부산문화재단</a></li>
+                <li><a href="">경기문화재단</a></li>
+                <li><a href="">서울문화재단</a></li>
+                <li><a href="">인천문화재단</a></li>
+                <li><a href="">충북문화재단</a></li>
+                <li><a href="">대구문화재단</a></li>
+                <li><a href="">광주문화재단</a></li>
+                <li><a href="">강원문화재단</a></li>
+                <li><a href="">경남문화예술진흥원</a></li>
+                <li><a href="">제주문화예술재단</a></li>
+                <li><a href="">KAWF</a></li>
+                <li><a href="">예술나무</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">협약기관</a>
+            </li>
+          </ul>
+        </div>
+        <ul>
+          <li><a href="">고객민족경영</a></li>
+          <li><a href="">개인정보처리방침</a></li>
+          <li><a href="">이메일주소무단수집거부</a></li>
+          <li><a href="">찾아오시는 길</a></li>
+          <li><a href="">직원찾기</a></li>
+        </ul>
+      </div>
+      <div class="text">
+        <span>대표전화(042) 480-1000 대표맥스 (042) 480-1099</span>
+        <p>(34944) 대전광역시 중구 중앙로 32(문화동 1-27)</p>
+        <p>E-Mail: dcaf@dcaf.or,kr</p>
+      </div>
+      <div>
+        <span
+          >Copyright 2023 DAEJEON CULTURE AND ARTS FOUNDATION. ALL RICHTS
+          RESERVED.</span
+        >
+      </div>
+      <img src="./Images/img_secure.png" alt="" />
+    </section>
+  </body>
+  <script>
+    //TopBar
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuItems = document.querySelectorAll(".menu-item");
+      const subMenu = document.querySelector(".TopBar_subMenu");
+      const topBar = document.querySelector(".TopBar"); // 탑바 영역
+
+      // 서브 메뉴가 열려있는지 확인하는 변수
+      let isMenuOpen = false;
+
+      // 각 메뉴 아이템에 클릭 이벤트를 추가
+      menuItems.forEach(function (item) {
+        item.addEventListener("click", function (e) {
+          e.preventDefault(); // 링크 클릭 시 페이지 리로드 방지
+          subMenu.classList.toggle("show"); // 서브메뉴 토글
+          isMenuOpen = !isMenuOpen; // 메뉴 상태 토글
+        });
+      });
+
+      // 탑바나 서브 메뉴 외부 영역을 클릭하면 서브 메뉴 닫기
+      document.addEventListener("click", function (e) {
+        // 클릭한 곳이 탑바나 서브 메뉴가 아니면
+        if (!topBar.contains(e.target) && !subMenu.contains(e.target)) {
+          if (isMenuOpen) {
+            subMenu.classList.remove("show"); // 서브 메뉴 닫기
+            isMenuOpen = false; // 메뉴 상태 변경
+          }
+        }
+      });
+
+      // 탑바 영역 내에서 클릭할 때 서브 메뉴가 열리도록 하기
+      topBar.addEventListener("click", function (e) {
+        // 서브 메뉴가 열려있지 않으면 열기
+        if (!isMenuOpen && e.target.closest(".menu-item")) {
+          subMenu.classList.add("show");
+          isMenuOpen = true;
+        }
+      });
+    });
+
+    //Swiper
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+    var swiper = new Swiper(".mySwiper1", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+    //Vertical
+    // 스크롤 트리거 플러그인 활성화
+    gsap.registerPlugin(ScrollTrigger);
+
+    console.clear();
+
+    var $window = $(window);
+    var windowWidth = $window.width();
+    var windowHeight = $window.height();
+
+    $window.resize(function () {
+      windowWidth = $(window).width();
+      windowHeight = $window.height();
+    });
+
+    function setTimelineToEl(timeline, $el) {
+      $el.data("gsap-timeline", timeline);
+    }
+
+    function killTimeline($el) {
+      var timeline = $el.data("gsap-timeline");
+
+      if (timeline) {
+        timeline.kill();
+      }
+    }
+
+    function SectionTop__init() {
+      var wrapMarginRight = 64;
+      var $contentLi = $(".section-top__content > li");
+      var $bgLi = $(".section-top__bg > li");
+      var $bgLiChild = $bgLi.find(" > div");
+
+      var animationDuration = 600;
+
+      var updateBgLiChildWidth = function () {
+        var width = windowWidth - wrapMarginRight;
+        $bgLiChild.stop().width(width);
+      };
+
+      $window.resize(function () {
+        updateBgLiChildWidth();
+      });
+      updateBgLiChildWidth();
+
+      $contentLi.mouseenter(function () {
+        var $this = $(this);
+        var index = $this.index();
+        var $selectedBgLi = $bgLi.eq(index);
+        var $selectedBgLiChild = $bgLiChild.eq(index);
+
+        $selectedBgLi.addClass("active");
+
+        var timeline = gsap.timeline();
+
+        setTimelineToEl(timeline, $selectedBgLiChild);
+        setTimelineToEl(timeline, $selectedBgLi);
+
+        var animationDurationSeconds = animationDuration / 1000;
+
+        timeline.to($selectedBgLiChild, {
+          left: 0,
+          duration: animationDurationSeconds,
+        });
+
+        timeline.to(
+          $selectedBgLi,
+          {
+            left: 0,
+            right: 0,
+            duration: animationDurationSeconds,
+          },
+          "-=" + animationDurationSeconds
+        );
+      });
+
+      $contentLi.mouseleave(function () {
+        var $this = $(this);
+        var index = $this.index();
+        var $selectedBgLi = $bgLi.eq(index);
+        var $selectedBgLiChild = $bgLiChild.eq(index);
+
+        $selectedBgLi.removeClass("active");
+
+        killTimeline($selectedBgLi);
+        $selectedBgLi.css({
+          left: "",
+          right: "",
+        });
+
+        killTimeline($selectedBgLiChild);
+        $selectedBgLiChild.css({
+          left: "",
+        });
+      });
+    }
+
+    SectionTop__init();
+
+    //검색
+    document.addEventListener("DOMContentLoaded", function () {
+      const searchIcon = document.querySelector(
+        ".TopBar > div > div > img:first-child"
+      );
+      const searchActiveBox = document.querySelector(".TopBar .search-active");
+
+      searchIcon.addEventListener("click", function () {
+        searchActiveBox.classList.toggle("active");
+        searchIcon.classList.add("hide");
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const searchIcon = document.querySelector(
+        ".TopBar > div > div > img:first-child"
+      );
+      const searchActiveBox = document.querySelector(".TopBar .search-active");
+
+      document.addEventListener("click", function (e) {
+        const isClickInside =
+          searchActiveBox.contains(e.target) || searchIcon.contains(e.target);
+
+        if (!isClickInside) {
+          searchActiveBox.classList.remove("active");
+          searchIcon.classList.remove("hide");
+        }
+      });
+
+      searchIcon.addEventListener("click", function (e) {
+        e.stopPropagation(); // Prevent immediate close
+        searchActiveBox.classList.add("active");
+        searchIcon.classList.add("hide");
+      });
+    });
+
+    //사이드바
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuButton = document.querySelector(".menu-toggle");
+      const popup = document.querySelector(".Popup");
+      const closeButton = document.querySelector(".Popup_subMenu > img");
+
+      menuButton.addEventListener("click", function (e) {
+        e.stopPropagation();
+        popup.classList.add("active");
+        document.body.classList.add("Popup-active");
+        document.documentElement.classList.add("Popup-active"); // html에도 추가
+      });
+
+      closeButton.addEventListener("click", function () {
+        popup.classList.remove("active");
+        document.body.classList.remove("Popup-active");
+        document.documentElement.classList.remove("Popup-active"); // html에서도 제거
+      });
+    });
+
+    //Dropdown
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleButtons = document.querySelectorAll(".dropdown-toggle");
+      const defaultMaxHeight = 624; // 숫자(px), 비교를 위해 단위 제거
+
+      toggleButtons.forEach((button) => {
+        button.addEventListener("click", function () {
+          const targetSelector = this.getAttribute("data-target");
+          const target = document.querySelector(targetSelector + " .content");
+
+          const upArrow = this.querySelector("img:last-child"); // ↑ 화살표
+          const downArrow = this.querySelector("img:first-child"); // ↓ 화살표
+
+          const contentHeight = target.scrollHeight;
+
+          // 실제 콘텐츠가 기본 높이보다 작거나 같다면 확장 불필요 → 클릭 무시 + 이미지 변화 X
+          if (contentHeight <= defaultMaxHeight) {
+            return;
+          }
+
+          if (target.classList.contains("expanded")) {
+            target.classList.remove("expanded");
+            target.style.maxHeight = defaultMaxHeight + "px";
+
+            downArrow.style.display = "inline-block";
+            upArrow.style.display = "none";
+          } else {
+            // 다른 모든 섹션 닫기
+            document
+              .querySelectorAll(".Noti-Process .content")
+              .forEach((el) => {
+                el.classList.remove("expanded");
+                el.style.maxHeight = defaultMaxHeight + "px";
+
+                // 다른 버튼의 화살표도 기본 상태로
+                const parent = el.closest(".Noti-Process");
+                if (parent) {
+                  const otherButton = parent.querySelector(".dropdown-toggle");
+                  if (otherButton) {
+                    const otherDownArrow =
+                      otherButton.querySelector("img:first-child");
+                    const otherUpArrow =
+                      otherButton.querySelector("img:last-child");
+                    otherDownArrow.style.display = "inline-block";
+                    otherUpArrow.style.display = "none";
+                  }
+                }
+              });
+
+            target.classList.add("expanded");
+            target.style.maxHeight = contentHeight + "px";
+
+            downArrow.style.display = "none";
+            upArrow.style.display = "inline-block";
+          }
+        });
+      });
+    });
+
+    //Footer
+    document.addEventListener("DOMContentLoaded", () => {
+      const dropdowns = document.querySelectorAll(".dropdown");
+
+      dropdowns.forEach((dropdown) => {
+        const downArrow = dropdown.querySelector(".arrow.down");
+        const upArrow = dropdown.querySelector(".arrow.up");
+        const submenu = dropdown.querySelector(".submenu");
+
+        downArrow.addEventListener("click", (e) => {
+          e.stopPropagation();
+          closeAllMenus();
+          submenu.classList.add("active");
+          downArrow.style.display = "none";
+          upArrow.style.display = "inline";
+        });
+
+        upArrow.addEventListener("click", (e) => {
+          e.stopPropagation();
+          submenu.classList.remove("active");
+          upArrow.style.display = "none";
+          downArrow.style.display = "inline";
+        });
+      });
+
+      document.addEventListener("click", () => {
+        closeAllMenus();
+      });
+
+      function closeAllMenus() {
+        document.querySelectorAll(".submenu").forEach((menu) => {
+          menu.classList.remove("active");
+        });
+        document.querySelectorAll(".arrow.down").forEach((img) => {
+          img.style.display = "inline";
+        });
+        document.querySelectorAll(".arrow.up").forEach((img) => {
+          img.style.display = "none";
+        });
+      }
+    });
+
+    //
+    document.querySelectorAll(".section-top__bg li").forEach(function (li) {
+      li.addEventListener("mouseenter", function () {
+        // 모든 li에서 active 클래스 제거
+        document
+          .querySelectorAll(".section-top__bg li")
+          .forEach(function (item) {
+            item.classList.remove("active");
+          });
+
+        // 현재 호버한 li에 active 클래스 추가
+        li.classList.add("active");
+      });
+    });
+
+    // Vertical Slide
+    const contentItems = document.querySelectorAll(".section-top__content li");
+
+    contentItems.forEach((item) => {
+      const img = item.querySelector(".bg-image");
+      const text = item.querySelector(".text");
+      const spaceText = item.querySelector(".Space-text"); // .Space-text 추가
+
+      item.addEventListener("mouseenter", () => {
+        // 모든 이미지, 텍스트 초기화
+        document
+          .querySelectorAll(".section-top__content img")
+          .forEach((img) => {
+            img.classList.remove("active");
+          });
+        document
+          .querySelectorAll(".section-top__content .text")
+          .forEach((txt) => {
+            txt.classList.remove("hide");
+          });
+        document
+          .querySelectorAll(".section-top__content .Space-text")
+          .forEach((txt) => {
+            txt.classList.remove("active");
+          });
+
+        // 현재 요소만 이미지 보이기, 텍스트 숨기기, Space-text 보이기
+        if (img) {
+          img.classList.add("active");
+        }
+        if (text) {
+          text.classList.add("hide");
+        }
+        if (spaceText) {
+          spaceText.classList.add("active"); // .Space-text에 active 추가
+        }
+      });
+
+      item.addEventListener("mouseleave", () => {
+        if (img) {
+          img.classList.remove("active");
+        }
+        if (text) {
+          text.classList.remove("hide");
+        }
+        if (spaceText) {
+          spaceText.classList.remove("active"); // .Space-text의 active 제거
+        }
+      });
+    });
+  </script>
+</html>
